@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    font-size: 20px ;
+}
+.rgb-color-container{
+    min-height: 100vh;
+    flex: 1 ;
+  }
+  .rgb-color-container{
+    flex-direction: column; 
+    gap: 20px;
+    background-color: rgb(246, 125, 125);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rgb-color-container button {
+    padding: 12px 20px;
+    cursor:  pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+.rgb-color-value{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+   }
